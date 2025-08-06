@@ -35,6 +35,7 @@ Você tem liberdade para escolher as tecnologias que considerar mais adequadas, 
 
 **Requisitos obrigatórios:**
 
+- Utilização de Golang.
 - O projeto deve ser executável via `docker-compose`.
 - O código deve estar documentado e fácil de executar/testar.
 - Utilize cache para otimizar leituras frequentes (ex: Redis).
