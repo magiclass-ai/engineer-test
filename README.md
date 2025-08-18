@@ -6,20 +6,20 @@ O **Serviço de Localização de Usuários em Eventos Públicos** é uma aplica�
 
 ## 🎯 Desafio
 
-Você deverá construir um sistema que permita que usuários de um evento compartilhem sua posição atual dentro do espaço (ex: setor, coordenadas internas) e consulte onde estão seus amigos ou grupos, de forma eficiente.
-
+Você deverá construir um sistema que permita que usuários de um evento compartilhem sua posição atual dentro do espaço (coordenadas: lat lng) e consulte onde estão seus amigos ou grupos, de forma eficiente.
+Este espaço é delimitado por N setores quadrados de 100x100 metros.
 ---
 
 ## 📌 Rotas Necessárias
 
 - **Salvar Posição do Usuário**  
-  Esta API deve permitir que um usuário envie sua posição atual (ex: coordenada x/y ou localização nomeada como "Setor A").
+  Esta API deve permitir que um usuário envie sua posição atual (coordenada x/y).
 
 - **Recuperar Posição Atual do Usuário**  
   Esta API deve retornar a posição atual de um usuário com base no seu ID.
 
-- **Recuperar Histórico das Últimas Posições do Usuário**  
-  Deve retornar o histórico das últimas posições registradas para o usuário.
+- **Recuperar Histórico das Últimas N Posições do Usuário**  
+  Deve retornar o histórico das últimas N posições registradas para o usuário.
 
 - **Retornar Usuários Próximos a um Local**  
   Deve retornar uma lista de usuários dentro de um raio especificado em relação a uma posição fornecida.
