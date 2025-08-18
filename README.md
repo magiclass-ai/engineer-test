@@ -10,7 +10,7 @@ Você deverá construir um sistema que permita que usuários de um evento compar
 
 ---
 
-## 📌 APIs Necessárias
+## 📌 Rotas Necessárias
 
 - **Salvar Posição do Usuário**  
   Esta API deve permitir que um usuário envie sua posição atual (ex: coordenada x/y ou localização nomeada como "Setor A").
