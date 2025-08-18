@@ -24,7 +24,7 @@ Você deverá construir um sistema que permita que usuários de um evento compar
 - **Retornar Usuários Próximos a um Local**  
   Deve retornar uma lista de usuários dentro de um raio especificado em relação a uma posição fornecida.
 
- **Retornar Usuários em um Setor**  
+ - **Retornar Usuários em um Setor**  
   Esta API deve retornar todos os usuários localizados atualmente em um determinado setor do evento.
 
 ---
